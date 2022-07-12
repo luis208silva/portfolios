@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Codificador & Decondificador</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                <a href="index.html" title="Home">
+                    <img src="img/logo-alura.png" alt="Logo Alura."
+                    width="120" height="48" id="logo">
+                </a>
+            </h1>     
+        </header>
+
+        <main class="main">
+            <section>
+                <textarea class="input-texto" cols="75" rows="9" placeholder="Digite o texto..."></textarea>
+
+                <div class="informacao">
+                    <ul class="mensagens-erro"></ul>
+                </div>
+
+                <div class="botoes">
+                    <button type="button" class="btn-codificar">Codificar</button>
+                    <!--<button type="button" class="btn-decodificar">Decodificar</button>-->
+                </div>
+            </section>
+
+            <section class="container">
+                <textarea class="resultado" cols="20" rows="11" placeholder=" " readonly></textarea>
+                <button type="button" class="invisivel btn-copiar">Copiar</button>
+                <button type="button" class="btn-decodificar">Decodificar</button>
+            </section>
+        </main>
+
+        <footer>
+            <div class="rede-sociais">
+                <p>Rede Sociais</p>
+            
+            <a href="#" target="_blank">            
+                <img src="img/logo-github.png" alt="GitHub"
+                width="45" height="45" id="github">
+                GitHub
+            </a>
+             <a href="https://www.linkedin.com/in/luisfnsilva/"target="_blank">
+                <img src="img/logo-linkedin.png" alt="LinkedIn"
+                width="45" height="45" id="linkedin">
+                LinkedIn
+            </a>
+            </div>
+            
+            <div class="credito">
+                <p>&#169; Desenvolvido Luis - 2022</p>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
